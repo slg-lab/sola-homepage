@@ -2,42 +2,52 @@
   year: 2026
   category: award
   text: 'Best Poster Award, IEEE RoboSoft 2026 Workshop: "Living with Robots Safely: Embodying Asimov''s First Law through Soft Robotics."'
+  thumbnail: /assets/images/robosoft-2026-logo.png
 - date: 2025-10-20
   year: 2025
   category: press
   text: "Learning the Nonlinear Dynamics of Soft Actuators with AI: Hysteresis-based Reservoir Computing Paving the Way for Robotic Grippers Capable of Delicate Movements"
   url: https://www.t.u-tokyo.ac.jp/en/press/pr2025-10-20-001
+  thumbnail: /assets/images/news-awards-default-thumb.svg
 - date: 2025-10-19
   year: 2025
   category: press
   text: "マルチエージェントAIによるゼロショット言語駆動ロボット把持システム開発～自然言語の指示に対応、実環境での安全なロボット操作を実現～"
   url: https://www.i.u-tokyo.ac.jp/news/press/2025/202510192686.shtml
+  thumbnail: /assets/images/news-awards-default-thumb.svg
 - date: 2021-01-01
   year: 2021
   category: award
   text: Best Full Paper Award, ACM IDC
+  thumbnail: /assets/images/news-awards-default-thumb.svg
 - date: 2018-01-01
   year: 2018
   category: award
   text: Best Demo Award, ACM UbiComp
+  thumbnail: /assets/images/news-awards-default-thumb.svg
 - date: 2017-01-01
   year: 2017
   category: media
   text: Snake-like soft robot featured on IEEE Spectrum Video Friday
   url: https://spectrum.ieee.org/video-friday-curiosity-rover-giant-crab-robot-drone-umbrella
+  thumbnail: /assets/images/news-awards-default-thumb.svg
 - date: 2016-01-01
   year: 2016
   category: award
   text: First Prize, SBCloud Hackathon (SoftBank)
+  thumbnail: /assets/images/news-awards-default-thumb.svg
 - date: 2013-01-01
   year: 2013
   category: award
   text: Champion, Tokyo Start-up Weekend Contest
+  thumbnail: /assets/images/news-awards-default-thumb.svg
 - date: 2012-01-01
   year: 2012
   category: award
   text: Runner-up, Vietnam Microsoft Imagine Cup
+  thumbnail: /assets/images/news-awards-default-thumb.svg
 - date: 2010-01-01
   year: 2010
   category: media
   text: Research outputs have appeared in major HCI and robotics venues (ACM CHI, UbiComp, ICRA, IROS).
+  thumbnail: /assets/images/news-awards-default-thumb.svg

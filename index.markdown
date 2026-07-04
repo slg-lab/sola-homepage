@@ -40,25 +40,51 @@ The group is led by **Tung D. Ta**, currently an Associate Professor at Keio Uni
 ## News
 
 {% assign newest_news = site.data.news | sort: "date" | reverse | slice: 0, 5 %}
+<div class="thumb-item-list">
 {% for item in newest_news %}
-{% if item.url %}
-- {{ item.date }}: [{{ item.title }}]({{ item.url }})
-{% else %}
-- {{ item.date }}: {{ item.title }}
-{% endif %}
+	{% assign item_thumb = item.thumbnail | default: '/assets/images/news-awards-default-thumb.svg' %}
+	<article class="thumb-item">
+		<div class="thumb-item__thumb">
+			<img src="{{ item_thumb | relative_url }}" alt="{{ item.title | escape }}">
+		</div>
+		<div class="thumb-item__body">
+			<div class="thumb-item__meta">{{ item.date }}</div>
+			<h3 class="thumb-item__title">
+				{% if item.url %}
+					<a href="{{ item.url }}">{{ item.title }}</a>
+				{% else %}
+					{{ item.title }}
+				{% endif %}
+			</h3>
+		</div>
+	</article>
 {% endfor %}
+</div>
 
 <p style="text-align: right;"><a href="{{ '/news/' | relative_url }}">More</a></p>
 
 ## Awards and Media
 
 {% assign newest_awards_media = site.data.awards_media | sort: "date" | reverse | slice: 0, 5 %}
+<div class="thumb-item-list">
 {% for item in newest_awards_media %}
-{% if item.url %}
-- {{ item.year }}: [{{ item.text }}]({{ item.url }})
-{% else %}
-- {{ item.year }}: {{ item.text }}
-{% endif %}
+	{% assign item_thumb = item.thumbnail | default: '/assets/images/news-awards-default-thumb.svg' %}
+	<article class="thumb-item">
+		<div class="thumb-item__thumb">
+			<img src="{{ item_thumb | relative_url }}" alt="{{ item.text | escape }}">
+		</div>
+		<div class="thumb-item__body">
+			<div class="thumb-item__meta">{{ item.year }} · {{ item.category | capitalize }}</div>
+			<h3 class="thumb-item__title">
+				{% if item.url %}
+					<a href="{{ item.url }}">{{ item.text }}</a>
+				{% else %}
+					{{ item.text }}
+				{% endif %}
+			</h3>
+		</div>
+	</article>
 {% endfor %}
+</div>
 
 <p style="text-align: right;"><a href="{{ '/awards-media/' | relative_url }}">More</a></p>
