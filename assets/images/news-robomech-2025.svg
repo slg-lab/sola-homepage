@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Robomech 2025</title>
+  <desc id="desc">Badge thumbnail for Robomech 2025 news.</desc>
+  <rect width="640" height="360" fill="#f8f7ff"/>
+  <circle cx="536" cy="92" r="90" fill="#e2dbff"/>
+  <text x="56" y="146" fill="#6f58b3" font-family="Arial, sans-serif" font-size="38" font-weight="700">JSME Robotics and Mechatronics</text>
+  <text x="56" y="228" fill="#523286" font-family="Arial, sans-serif" font-size="82" font-weight="800">ROBOMECH 2025</text>
+  <text x="56" y="286" fill="#736984" font-family="Arial, sans-serif" font-size="28">Yamagata</text>
+</svg>

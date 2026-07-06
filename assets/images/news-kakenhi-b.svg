@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">KAKENHI Grant-in-Aid B</title>
+  <desc id="desc">Badge thumbnail for KAKENHI Grant-in-Aid B news.</desc>
+  <rect width="640" height="360" fill="#fff8f0"/>
+  <rect x="0" y="0" width="640" height="84" fill="#ffe4b8"/>
+  <text x="54" y="146" fill="#ad6a0c" font-family="Arial, sans-serif" font-size="38" font-weight="700">Grant-in-Aid for Scientific Research</text>
+  <text x="54" y="230" fill="#824b00" font-family="Arial, sans-serif" font-size="86" font-weight="800">KAKENHI B</text>
+  <text x="54" y="286" fill="#8e7757" font-family="Arial, sans-serif" font-size="28">Research funding award</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">ICRA 2025</title>
+  <desc id="desc">Badge thumbnail for ICRA 2025 news.</desc>
+  <rect width="640" height="360" fill="#eff8ff"/>
+  <rect x="0" y="0" width="640" height="120" fill="#d7efff"/>
+  <text x="56" y="146" fill="#2f73aa" font-family="Arial, sans-serif" font-size="34" font-weight="700">IEEE International Conference on</text>
+  <text x="56" y="230" fill="#124f86" font-family="Arial, sans-serif" font-size="94" font-weight="800">ICRA 2025</text>
+  <text x="56" y="288" fill="#60788f" font-family="Arial, sans-serif" font-size="26">Accepted papers and presentations</text>
+</svg>

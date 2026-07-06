@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">CHI 2024</title>
+  <desc id="desc">Badge thumbnail for CHI 2024 news.</desc>
+  <rect width="640" height="360" fill="#fff8ee"/>
+  <circle cx="542" cy="92" r="88" fill="#ffd58a" opacity="0.55"/>
+  <circle cx="112" cy="296" r="124" fill="#ffe8bf" opacity="0.85"/>
+  <text x="56" y="136" fill="#b55a00" font-family="Arial, sans-serif" font-size="34" font-weight="700">ACM Conference on</text>
+  <text x="56" y="214" fill="#8f3f00" font-family="Arial, sans-serif" font-size="88" font-weight="800">CHI 2024</text>
+  <text x="56" y="274" fill="#8b5e34" font-family="Arial, sans-serif" font-size="28">Human Factors in Computing Systems</text>
+</svg>

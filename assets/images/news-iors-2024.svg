@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">IROS 2024</title>
+  <desc id="desc">Badge thumbnail for IROS 2024 news.</desc>
+  <rect width="640" height="360" fill="#f5f8ff"/>
+  <circle cx="108" cy="92" r="72" fill="#dce7ff"/>
+  <circle cx="566" cy="290" r="104" fill="#edf3ff"/>
+  <text x="54" y="146" fill="#5f6fb3" font-family="Arial, sans-serif" font-size="34" font-weight="700">IEEE/RSJ International Conference on</text>
+  <text x="54" y="228" fill="#32417f" font-family="Arial, sans-serif" font-size="94" font-weight="800">IROS 2024</text>
+  <text x="54" y="286" fill="#6c7698" font-family="Arial, sans-serif" font-size="26">Accepted paper announcement</text>
+</svg>

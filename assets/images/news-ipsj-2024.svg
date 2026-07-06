@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">IPSJ National Convention</title>
+  <desc id="desc">Badge thumbnail for IPSJ National Convention news.</desc>
+  <rect width="640" height="360" fill="#f6fbff"/>
+  <path d="M0 294 C140 246 238 338 392 278 S640 244 640 244 L640 360 L0 360 Z" fill="#d8eef6"/>
+  <text x="56" y="140" fill="#2f8aa0" font-family="Arial, sans-serif" font-size="36" font-weight="700">Information Processing Society of Japan</text>
+  <text x="56" y="224" fill="#17697d" font-family="Arial, sans-serif" font-size="72" font-weight="800">IPSJ 2024</text>
+  <text x="56" y="280" fill="#64818a" font-family="Arial, sans-serif" font-size="28">86th National Convention</text>
+</svg>

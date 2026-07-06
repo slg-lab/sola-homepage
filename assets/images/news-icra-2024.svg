@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">ICRA 2024</title>
+  <desc id="desc">Badge thumbnail for ICRA 2024 news.</desc>
+  <rect width="640" height="360" fill="#eef7ff"/>
+  <path d="M0 72 C160 136 260 28 420 88 S640 144 640 144 L640 0 L0 0 Z" fill="#bdddff"/>
+  <text x="56" y="148" fill="#3373b3" font-family="Arial, sans-serif" font-size="36" font-weight="700">IEEE International Conference on</text>
+  <text x="56" y="228" fill="#174e85" font-family="Arial, sans-serif" font-size="88" font-weight="800">ICRA 2024</text>
+  <text x="56" y="286" fill="#647b93" font-family="Arial, sans-serif" font-size="26">Yokohama, Japan</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Royal Society ISPF Award</title>
+  <desc id="desc">Badge thumbnail for Royal Society ISPF award news.</desc>
+  <rect width="640" height="360" fill="#f7fbff"/>
+  <rect x="40" y="40" width="560" height="280" rx="20" fill="#ffffff" stroke="#d9e7f2" stroke-width="4"/>
+  <text x="72" y="128" fill="#356e96" font-family="Arial, sans-serif" font-size="40" font-weight="700">The Royal Society</text>
+  <text x="72" y="206" fill="#194b70" font-family="Arial, sans-serif" font-size="74" font-weight="800">ISPF Award</text>
+  <text x="72" y="268" fill="#718391" font-family="Arial, sans-serif" font-size="26">UK-Japan collaboration</text>
+</svg>

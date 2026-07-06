@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">IROS 2025</title>
+  <desc id="desc">Badge thumbnail for IROS 2025 news.</desc>
+  <rect width="640" height="360" fill="#f4f8ff"/>
+  <rect x="34" y="34" width="572" height="292" rx="28" fill="#ffffff" stroke="#d5dff7" stroke-width="4"/>
+  <text x="68" y="136" fill="#6678b8" font-family="Arial, sans-serif" font-size="34" font-weight="700">IEEE/RSJ International Conference on</text>
+  <text x="68" y="222" fill="#33437f" font-family="Arial, sans-serif" font-size="94" font-weight="800">IROS 2025</text>
+  <text x="68" y="282" fill="#7b85a4" font-family="Arial, sans-serif" font-size="26">Hangzhou</text>
+</svg>
