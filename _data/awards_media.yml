@@ -2,35 +2,35 @@
   year: 2026
   category: award
   text: 'Best Poster Award, IEEE RoboSoft 2026 Workshop: "Living with Robots Safely: Embodying Asimov''s First Law through Soft Robotics."'
-  thumbnail: /assets/images/robosoft-2026-logo.png
+  thumbnail: /assets/images/robotsoft_poster_award.jpeg
 - date: 2025-10-20
   year: 2025
   category: press
   text: "Learning the Nonlinear Dynamics of Soft Actuators with AI: Hysteresis-based Reservoir Computing Paving the Way for Robotic Grippers Capable of Delicate Movements"
   url: https://www.t.u-tokyo.ac.jp/en/press/pr2025-10-20-001
-  thumbnail: /assets/images/news-awards-default-thumb.svg
+  thumbnail: /assets/images/reservoir_pouch_motor.webp
 - date: 2025-10-19
   year: 2025
   category: press
   text: "マルチエージェントAIによるゼロショット言語駆動ロボット把持システム開発～自然言語の指示に対応、実環境での安全なロボット操作を実現～"
   url: https://www.i.u-tokyo.ac.jp/news/press/2025/202510192686.shtml
-  thumbnail: /assets/images/news-awards-default-thumb.svg
+  thumbnail: /assets/images/tung_press_GraspMAS_eyecatch.jpg
 - date: 2021-01-01
   year: 2021
   category: award
   text: Best Full Paper Award, ACM IDC
-  thumbnail: /assets/images/news-awards-default-thumb.svg
+  thumbnail: /assets/images/research/2020_IDC_plushpal.png
 - date: 2018-01-01
   year: 2018
   category: award
   text: Best Demo Award, ACM UbiComp
-  thumbnail: /assets/images/news-awards-default-thumb.svg
+  thumbnail: /assets/images/research/UbiComp2018_Demo_origami_caterpillar_copy.webp
 - date: 2017-01-01
   year: 2017
   category: media
   text: Snake-like soft robot featured on IEEE Spectrum Video Friday
   url: https://spectrum.ieee.org/video-friday-curiosity-rover-giant-crab-robot-drone-umbrella
-  thumbnail: /assets/images/news-awards-default-thumb.svg
+  thumbnail: "https://img.notionusercontent.com/s3/prod-files-secure%2F08d69a42-34e2-4a23-8544-0fb5d7fc0960%2F2ebb48c8-77d9-4cb1-b5d6-6b76a1b8c0b6%2Fimage.jpg/size/w=720?exp=1783386110&sig=Vvd0pGzoO8p2ChWJRrzUeQdwq4N8EVUAh9xSDFTcmFw&imgBuildSrc=presignImageUrl&id=427d0e21-2f81-4baa-9d8e-98c9e60a5bbe&table=block&mtd=so"
 - date: 2016-01-01
   year: 2016
   category: award
