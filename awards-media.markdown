@@ -17,7 +17,16 @@ permalink: /awards-media/
 		</div>
 		<div class="thumb-item__body">
 			<div class="thumb-item__meta">{{ item.year }} · Award</div>
-			<h3 class="thumb-item__title">{{ item.text }}</h3>
+			<h3 class="thumb-item__title">
+				{% if item.url %}
+					<a href="{{ item.url }}">{{ item.text }}</a>
+				{% else %}
+					{{ item.text }}
+				{% endif %}
+			</h3>
+			{% if item.citation %}
+				<div class="thumb-item__description">{{ item.citation | markdownify }}</div>
+			{% endif %}
 		</div>
 	</article>
 {% endfor %}
