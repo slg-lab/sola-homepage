@@ -578,6 +578,10 @@ body {
     &:hover {
       text-decoration: underline;
     }
+
+    &:visited {
+      color: inherit;
+    }
   }
 }
 
