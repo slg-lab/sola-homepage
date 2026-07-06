@@ -13,7 +13,7 @@ permalink: /access/
 
 ## Resources
 
-- Main profile and updates: [https://tungtd.com](https://tungtd.com/)
+<!-- - Main profile and updates: [https://tungtd.com](https://tungtd.com/) -->
 - GitHub: [https://github.com/tatung](https://github.com/tatung)
 
 ## Contact Information
