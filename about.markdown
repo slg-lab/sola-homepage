@@ -23,7 +23,13 @@ The group is led by **Tung D. Ta**, currently an Associate Professor at Keio Uni
 	{% assign item_thumb = item.thumbnail | default: '/assets/images/news-awards-default-thumb.svg' %}
 	<article class="thumb-item">
 		<div class="thumb-item__thumb">
-			<img src="{{ item_thumb | relative_url }}" alt="{{ item.title | escape }}">
+			{% if item.url %}
+				<a href="{{ item.url }}">
+					<img src="{{ item_thumb | relative_url }}" alt="{{ item.title | escape }}">
+				</a>
+			{% else %}
+				<img src="{{ item_thumb | relative_url }}" alt="{{ item.title | escape }}">
+			{% endif %}
 		</div>
 		<div class="thumb-item__body">
 			<div class="thumb-item__meta">{{ item.date }}</div>

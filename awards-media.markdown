@@ -13,7 +13,13 @@ permalink: /awards-media/
 	{% assign item_thumb = item.thumbnail | default: '/assets/images/news-awards-default-thumb.svg' %}
 	<article class="thumb-item">
 		<div class="thumb-item__thumb">
-			<img src="{{ item_thumb | relative_url }}" alt="{{ item.text | escape }}">
+			{% if item.url %}
+				<a href="{{ item.url }}">
+					<img src="{{ item_thumb | relative_url }}" alt="{{ item.text | escape }}">
+				</a>
+			{% else %}
+				<img src="{{ item_thumb | relative_url }}" alt="{{ item.text | escape }}">
+			{% endif %}
 		</div>
 		<div class="thumb-item__body">
 			<div class="thumb-item__meta">{{ item.year }} · Award</div>
@@ -40,7 +46,13 @@ permalink: /awards-media/
 	{% assign item_thumb = item.thumbnail | default: '/assets/images/news-awards-default-thumb.svg' %}
 	<article class="thumb-item">
 		<div class="thumb-item__thumb">
-			<img src="{{ item_thumb | relative_url }}" alt="{{ item.text | escape }}">
+			{% if item.url %}
+				<a href="{{ item.url }}">
+					<img src="{{ item_thumb | relative_url }}" alt="{{ item.text | escape }}">
+				</a>
+			{% else %}
+				<img src="{{ item_thumb | relative_url }}" alt="{{ item.text | escape }}">
+			{% endif %}
 		</div>
 		<div class="thumb-item__body">
 			<div class="thumb-item__meta">{{ item.year }} · Press Release</div>
@@ -64,7 +76,13 @@ permalink: /awards-media/
 	{% assign item_thumb = item.thumbnail | default: '/assets/images/news-awards-default-thumb.svg' %}
 	<article class="thumb-item">
 		<div class="thumb-item__thumb">
-			<img src="{{ item_thumb | relative_url }}" alt="{{ item.text | escape }}">
+			{% if item.url %}
+				<a href="{{ item.url }}">
+					<img src="{{ item_thumb | relative_url }}" alt="{{ item.text | escape }}">
+				</a>
+			{% else %}
+				<img src="{{ item_thumb | relative_url }}" alt="{{ item.text | escape }}">
+			{% endif %}
 		</div>
 		<div class="thumb-item__body">
 			<div class="thumb-item__meta">{{ item.year }} · Media</div>
