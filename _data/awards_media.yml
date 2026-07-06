@@ -3,33 +3,33 @@
   category: award
   text: 'Best Poster Award, IEEE RoboSoft 2026 Workshop: "Living with Robots Safely: Embodying Asimov''s First Law through Soft Robotics."'
   url: https://tatung2112.notion.site/Best-poster-award-to-Tran-Ngoc-Duy-at-RoboSoft-2026-Workshop-33f16090c93080228e12fa315d6de4b8?pvs=25
-  thumbnail: /assets/images/award-robosoft-poster-2026.jpg
+  thumbnail: /assets/images/awards/award-robosoft-poster-2026.jpg
 - date: 2025-10-20
   year: 2025
   category: press
   text: "Learning the Nonlinear Dynamics of Soft Actuators with AI: Hysteresis-based Reservoir Computing Paving the Way for Robotic Grippers Capable of Delicate Movements"
   url: https://www.t.u-tokyo.ac.jp/en/press/pr2025-10-20-001
-  thumbnail: /assets/images/reservoir_pouch_motor.webp
+  thumbnail: /assets/images/research/reservoir_pouch_motor.webp
 - date: 2025-10-19
   year: 2025
   category: press
   text: "マルチエージェントAIによるゼロショット言語駆動ロボット把持システム開発～自然言語の指示に対応、実環境での安全なロボット操作を実現～"
   url: https://www.i.u-tokyo.ac.jp/news/press/2025/202510192686.shtml
-  thumbnail: /assets/images/tung_press_GraspMAS_eyecatch.jpg
+  thumbnail: /assets/images/news/tung_press_GraspMAS_eyecatch.jpg
 - date: 2021-01-01
   year: 2021
   category: award
   text: Best Full Paper Award, ACM IDC 2021
   citation: "T. Tseng, Y. Murai, N. Freed, D. Gelosi, T. D. Ta, and Y. Kawahara, [**PlushPal: Storytelling with Interactive Plush Toys and Machine Learning**](https://doi.org/10.1145/3459990.3460694)"
   url: https://doi.org/10.1145/3459990.3460694
-  thumbnail: /assets/images/award-idc-2021.png
+  thumbnail: /assets/images/awards/award-idc-2021.png
 - date: 2018-01-01
   year: 2018
   category: award
   text: Best Demo Award, ACM UbiComp 2018
   citation: "D. Li, K. Saito, T. Umedachi, T. D. Ta, and Y. Kawahara, [**Origami Robots with Flexible Circuit Sheets**](https://doi.org/10.1145/3267305.3267620)"
   url: https://doi.org/10.1145/3267305.3267620
-  thumbnail: /assets/images/award-ubicomp-demo-2018.webp
+  thumbnail: /assets/images/awards/award-ubicomp-demo-2018.webp
 - date: 2017-01-01
   year: 2017
   category: media
@@ -41,20 +41,20 @@
   category: award
   text: First Prize, SBCloud Hackathon (SoftBank)
   url: https://www.softbank.jp/
-  thumbnail: /assets/images/news-awards-default-thumb.svg
+  thumbnail: /assets/images/news/news-awards-default-thumb.svg
 - date: 2013-01-01
   year: 2013
   category: award
   text: Champion, Tokyo Start-up Weekend Contest
-  thumbnail: /assets/images/award-startup-weekend-tokyo-2013.jpg
+  thumbnail: /assets/images/awards/award-startup-weekend-tokyo-2013.jpg
 - date: 2012-01-01
   year: 2012
   category: award
   text: Runner-up, Vietnam Microsoft Imagine Cup
   url: https://tuoitre.vn/nld/tin-tuc/microsoft-cong-bo-cac-doi-doat-giai-imagine-cup-20120427062712659.htm
-  thumbnail: /assets/images/award-imagine-cup-2012.webp
+  thumbnail: /assets/images/awards/award-imagine-cup-2012.webp
 - date: 2013-04 -01
   year: 2013
   category: media
   text: Research outputs have appeared in major HCI and robotics venues (ACM CHI, UbiComp, ICRA, IROS).
-  thumbnail: /assets/images/news-awards-default-thumb.svg
+  thumbnail: /assets/images/news/news-awards-default-thumb.svg
