@@ -35,7 +35,7 @@
   category: media
   text: Snake-like soft robot featured on IEEE Spectrum Video Friday
   url: https://spectrum.ieee.org/video-friday-curiosity-rover-giant-crab-robot-drone-umbrella
-  thumbnail: "https://img.notionusercontent.com/s3/prod-files-secure%2F08d69a42-34e2-4a23-8544-0fb5d7fc0960%2F2ebb48c8-77d9-4cb1-b5d6-6b76a1b8c0b6%2Fimage.jpg/size/w=720?exp=1783386110&sig=Vvd0pGzoO8p2ChWJRrzUeQdwq4N8EVUAh9xSDFTcmFw&imgBuildSrc=presignImageUrl&id=427d0e21-2f81-4baa-9d8e-98c9e60a5bbe&table=block&mtd=so"
+  thumbnail: /assets/images/research/ICRA2018_wriggler.webp
 - date: 2016-01-01
   year: 2016
   category: award

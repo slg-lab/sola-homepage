@@ -2,7 +2,7 @@
 title: "Probe-to-Grasp"
 venue: "IROS 2026"
 year: 2026
-order: -2
+order: -5
 featured: true
 image: "/assets/images/research/IROS2026_probe-to-grasp.png"
 external_url: "https://arxiv.org/abs/2603.27808"

@@ -2,7 +2,7 @@
 title: "GCA-Bench"
 venue: "IROS 2026"
 year: 2026
-order: -4
+order: -1
 featured: true
 image: "/assets/images/research/IROS2026_gca_bench.png"
 ---

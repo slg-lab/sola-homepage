@@ -2,7 +2,7 @@
 title: "MobiDock"
 venue: "IROS 2026"
 year: 2026
-order: -1
+order: -4
 featured: true
 image: "/assets/images/research/IROS2026_mobidock.png"
 external_url: "https://arxiv.org/abs/2510.27178"

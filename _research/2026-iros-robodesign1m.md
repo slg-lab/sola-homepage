@@ -2,7 +2,7 @@
 title: "RoboDesign1M"
 venue: "IROS 2026"
 year: 2026
-order: -3
+order: -1
 featured: true
 image: "/assets/images/research/IROS2026_robodesign1m.png"
 external_url: "https://arxiv.org/abs/2503.06796"
