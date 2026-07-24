@@ -1,12 +1,13 @@
 ---
 layout: single
 title: ""
-permalink: /news/
+permalink: /ja/news/
+lang: ja
 ---
 
-## Latest News
+## 最新ニュース
 
-{% assign latest_news = site.data.news | sort: "date" | reverse %}
+{% assign latest_news = site.data.news_ja | sort: "date" | reverse %}
 <div class="thumb-item-list">
 {% for item in latest_news %}
 	{% assign item_thumb = item.thumbnail | default: '/assets/images/news-awards-default-thumb.svg' %}

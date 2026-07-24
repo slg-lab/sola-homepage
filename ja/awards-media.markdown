@@ -1,11 +1,12 @@
 ---
 layout: single
 title: ""
-permalink: /awards-media/
+permalink: /ja/awards-media/
+lang: ja
 ---
-{% assign awards_media_items = site.data.awards_media | sort: "date" | reverse %}
+{% assign awards_media_items = site.data.awards_media_ja | sort: "date" | reverse %}
 
-## Awards
+## 受賞
 
 {% assign awards = awards_media_items | where: "category", "award" %}
 <div class="thumb-item-list">
@@ -22,7 +23,7 @@ permalink: /awards-media/
 			{% endif %}
 		</div>
 		<div class="thumb-item__body">
-			<div class="thumb-item__meta">{{ item.year }} · Award</div>
+			<div class="thumb-item__meta">{{ item.year }} · 受賞</div>
 			<h3 class="thumb-item__title">
 				{% if item.url %}
 					<a href="{{ item.url }}">{{ item.text }}</a>
@@ -38,7 +39,7 @@ permalink: /awards-media/
 {% endfor %}
 </div>
 
-## Press Releases
+## プレスリリース
 
 {% assign press_releases = awards_media_items | where: "category", "press" %}
 <div class="thumb-item-list">
@@ -55,7 +56,7 @@ permalink: /awards-media/
 			{% endif %}
 		</div>
 		<div class="thumb-item__body">
-			<div class="thumb-item__meta">{{ item.year }} · Press Release</div>
+			<div class="thumb-item__meta">{{ item.year }} · プレスリリース</div>
 			<h3 class="thumb-item__title">
 				{% if item.url %}
 					<a href="{{ item.url }}">{{ item.text }}</a>
@@ -68,7 +69,7 @@ permalink: /awards-media/
 {% endfor %}
 </div>
 
-## Media Coverage
+## メディア掲載
 
 {% assign media_coverage = awards_media_items | where: "category", "media" %}
 <div class="thumb-item-list">
@@ -85,7 +86,7 @@ permalink: /awards-media/
 			{% endif %}
 		</div>
 		<div class="thumb-item__body">
-			<div class="thumb-item__meta">{{ item.year }} · Media</div>
+			<div class="thumb-item__meta">{{ item.year }} · メディア</div>
 			<h3 class="thumb-item__title">
 				{% if item.url %}
 					<a href="{{ item.url }}">{{ item.text }}</a>

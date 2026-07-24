@@ -1,19 +1,47 @@
 {% assign locale = include.locale | default: site.locale %}
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
+{% assign current_page_path = page.url | default: '/' %}
+{% assign current_lang = page.lang | default: 'en' %}
+{% assign english_base_path = site.language_switcher.english_base_path | default: '' %}
+{% assign japanese_base_path = site.language_switcher.japanese_base_path | default: '/ja' %}
+{% if current_lang == 'ja' %}
+  {% assign home_path = japanese_base_path | append: '/' %}
+{% else %}
+  {% assign home_path = '/' %}
+{% endif %}
+{% if current_lang == 'ja' %}
+  {% assign nav_links = site.data.navigation_ja.main %}
+{% else %}
+  {% assign nav_links = site.data.navigation.main %}
+{% endif %}
+{% if current_lang == 'ja' %}
+  {% assign english_page_path = current_page_path | remove_first: japanese_base_path %}
+  {% if english_page_path == '' %}
+    {% assign english_page_path = '/' %}
+  {% endif %}
+  {% assign japanese_page_path = current_page_path %}
+{% else %}
+  {% assign english_page_path = current_page_path %}
+  {% if current_page_path == '/' %}
+    {% assign japanese_page_path = japanese_base_path | append: '/' %}
+  {% else %}
+    {% assign japanese_page_path = japanese_base_path | append: current_page_path %}
+  {% endif %}
+{% endif %}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
         {% unless logo_path == empty %}
-          <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
+          <a class="site-logo" href="{{ home_path | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
         {% endunless %}
-        <a class="site-title" href="{{ '/' | relative_url }}">
+        <a class="site-title" href="{{ home_path | relative_url }}">
           {{ site.masthead_title | default: site.title | escape_once | strip }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle | escape_once | strip }}</span>{% endif %}
         </a>
         <ul class="visible-links">
-          {%- for link in site.data.navigation.main -%}
+          {%- for link in nav_links -%}
             <li class="masthead__menu-item">
               <a
                 href="{{ link.url | relative_url }}"
@@ -24,7 +52,7 @@
           {%- endfor -%}
         </ul>
         <script id="nav-links-data" type="application/json">[
-          {%- for link in site.data.navigation.main -%}
+          {%- for link in nav_links -%}
             {
               "title": {{ link.title | jsonify }},
               "url": {{ link.url | relative_url | jsonify }},
@@ -39,6 +67,11 @@
           <i class="fas fa-search"></i>
         </button>
         {% endif %}
+        <div class="language-switcher" aria-label="Language switcher">
+          <a class="language-switcher__link{% if current_lang == 'en' %} is-active{% endif %}" href="{{ english_page_path | relative_url }}">EN</a>
+          <span class="language-switcher__divider">/</span>
+          <a class="language-switcher__link{% if current_lang == 'ja' %} is-active{% endif %}" href="{{ japanese_page_path | relative_url }}">JP</a>
+        </div>
         <span class="mobile-nav-label" aria-hidden="true"></span>
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[locale].menu_label | default: "Toggle menu" }}</span>

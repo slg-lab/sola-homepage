@@ -1,0 +1,16 @@
+# Main navigation
+main:
+  - title: "ホーム"
+    url: /ja/
+  - title: "メンバー"
+    url: /ja/members/
+  - title: "研究"
+    url: /ja/research/
+  - title: "出版・論文"
+    url: /ja/publication/
+  - title: "受賞・メディア"
+    url: /ja/awards-media/
+  - title: "ニュース"
+    url: /ja/news/
+  - title: "アクセス"
+    url: /ja/access/
