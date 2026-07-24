@@ -98,6 +98,36 @@ body {
   bottom: 0;
 }
 
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+  margin-left: 0.75rem;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.74rem;
+  line-height: 1;
+}
+
+.language-switcher__link,
+.language-switcher__link:visited {
+  color: rgba(255, 255, 255, 0.82);
+  text-decoration: none;
+}
+
+.language-switcher__link:hover,
+.language-switcher__link:focus {
+  color: #ffffff;
+}
+
+.language-switcher__link.is-active {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.language-switcher__divider {
+  opacity: 0.72;
+}
+
 .page__content h2 {
   color: $theme-accent-color;
 }
@@ -159,6 +189,13 @@ body {
 
 /* Keep hamburger pinned to the right on mobile */
 @media (max-width: 767px) {
+  .language-switcher {
+    order: 3;
+    margin-left: 0.5rem;
+    margin-right: 0.4rem;
+    font-size: 0.78rem;
+  }
+
   .greedy-nav__toggle {
     margin-left: 0;
   }

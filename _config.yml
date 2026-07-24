@@ -45,6 +45,9 @@ collections:
   research:
     output: true
     permalink: /research/:name/
+  research_ja:
+    output: true
+    permalink: /ja/research/:name/
 
 defaults:
   - scope:
@@ -52,6 +55,13 @@ defaults:
       type: research
     values:
       layout: research-item
+      lang: en
+  - scope:
+      path: ""
+      type: research_ja
+    values:
+      layout: research-item
+      lang: ja
 
 plugins:
   - jekyll-include-cache
@@ -63,6 +73,10 @@ atom_feed:
 after_footer_scripts:
   - /assets/js/nav-active.js
   - /assets/js/research-slider.js
+
+language_switcher:
+  english_base_path: ""
+  japanese_base_path: "/ja"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
