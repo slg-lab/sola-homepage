@@ -9,7 +9,8 @@
   }
 
   function isActiveTarget(target, current) {
-    var isActive = current === target || (target !== "/" && current.indexOf(target) === 0);
+    var isHomeTarget = target === "/" || target === "/ja/";
+    var isActive = current === target || (!isHomeTarget && current.indexOf(target) === 0);
     if (!isActive && current === "/" && target === "/about/") {
       isActive = true;
     }

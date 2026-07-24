@@ -11,8 +11,8 @@ lang: ja
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;">
 
 	<div>
-		<img src="/assets/images/members/TaDucTung.jpeg" alt="Tung D. Ta" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
-		<strong><a href="https://tungtd.com" target="_blank" rel="noopener">Tung D. Ta</a></strong><br>
+		<img src="/assets/images/members/TaDucTung.jpeg" alt="タ　デゥックトゥン" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
+		<strong><a href="https://tungtd.com" target="_blank" rel="noopener">タ　デゥックトゥン</a></strong><br>
 		准教授<br>
 		<code>tung</code>
 	</div>

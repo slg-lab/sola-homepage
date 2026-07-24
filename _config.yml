@@ -71,7 +71,7 @@ atom_feed:
   hide: true
 
 after_footer_scripts:
-  - /assets/js/nav-active.js
+  - /assets/js/nav-active.js?v=20260724a
   - /assets/js/research-slider.js
 
 language_switcher:
