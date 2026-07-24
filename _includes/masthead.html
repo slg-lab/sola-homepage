@@ -67,10 +67,10 @@
           <i class="fas fa-search"></i>
         </button>
         {% endif %}
-        <div class="language-switcher" aria-label="Language switcher">
-          <a class="language-switcher__link{% if current_lang == 'en' %} is-active{% endif %}" href="{{ english_page_path | relative_url }}">EN</a>
-          <span class="language-switcher__divider">/</span>
-          <a class="language-switcher__link{% if current_lang == 'ja' %} is-active{% endif %}" href="{{ japanese_page_path | relative_url }}">JP</a>
+        <div class="language-switcher" aria-label="Language switcher" style="color:#fff !important;">
+          <a class="language-switcher__link{% if current_lang == 'en' %} is-active{% endif %}" href="{{ english_page_path | relative_url }}" style="color:#fff !important;">EN</a>
+          <span class="language-switcher__divider" style="color:#fff !important;">/</span>
+          <a class="language-switcher__link{% if current_lang == 'ja' %} is-active{% endif %}" href="{{ japanese_page_path | relative_url }}" style="color:#fff !important;">JP</a>
         </div>
         <span class="mobile-nav-label" aria-hidden="true"></span>
         <button class="greedy-nav__toggle hidden" type="button">

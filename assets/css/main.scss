@@ -103,14 +103,14 @@ body {
   align-items: center;
   gap: 0.32rem;
   margin-left: 0.75rem;
-  color: rgba(255, 255, 255, 0.85);
+  color: #ffffff;
   font-size: 0.74rem;
   line-height: 1;
 }
 
 .language-switcher__link,
 .language-switcher__link:visited {
-  color: rgba(255, 255, 255, 0.82);
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -125,7 +125,8 @@ body {
 }
 
 .language-switcher__divider {
-  opacity: 0.72;
+  color: #ffffff;
+  opacity: 1;
 }
 
 .page__content h2 {
