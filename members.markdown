@@ -5,81 +5,81 @@ permalink: /members/
 classes: members-page
 ---
 
-## Faculty
+## 教員
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;">
 
 	<div>
 		<img src="/assets/images/members/TaDucTung.jpeg" alt="Tung D. Ta" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
 		<strong><a href="https://tungtd.com" target="_blank" rel="noopener">Tung D. Ta</a></strong><br>
-		Associate Professor<br>
+		准教授<br>
 		<code>tung</code>
 	</div>
 
 	<div>
 		<img src="/assets/images/members/YemanFan.jpeg" alt="Yeman Fan" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
 		<strong>Yeman Fan</strong><br>
-		Project Researcher<br>
+		特任研究員<br>
 		<code>yemanfan</code>
 	</div>
 
 </div>
 
-## Master Course
+## 修士課程
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;">
 
 	<div>
 		<img src="/assets/images/members/TranNgocDuy.jpeg" alt="Tran Ngoc Duy" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
 		<strong>Tran Ngoc Duy</strong><br>
-		M1, UTokyo<br>
+		修士1年（東京大学）<br>
 		<code>duy[at]csg.ci.i.u-tokyo.ac.jp</code>
 	</div>
 
 </div>
 
-## Undergraduate
+## 学部生
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;">
 
 	<div>
 		<img src="/assets/images/members/placeholder.svg" alt="Duong Minh Ngoc" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
 		<strong>Duong Minh Ngoc</strong><br>
-		B3<br>
+		学部3年<br>
 		<code>duongminhngoc2512</code>
 	</div>
 
 	<div>
 		<img src="/assets/images/members/placeholder.svg" alt="Limpasuthum Pawit" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
 		<strong>Limpasuthum Pawit</strong><br>
-		B2 (visiting)<br>
+		学部2年（訪問）<br>
 		<code>pawitlim</code>
 	</div>
 
 	<div>
 		<img src="/assets/images/members/placeholder.svg" alt="Bancaya Roger Troy" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
 		<strong>Bancaya Roger Troy</strong><br>
-		B3 (visiting)<br>
+		学部3年（訪問）<br>
 		<code>bancayarogertroy</code>
 	</div>
 
 	<div>
 		<img src="/assets/images/members/placeholder.svg" alt="Jumpei Saito" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
 		<strong>Jumpei Saito</strong><br>
-		B3 (visiting)<br>
+		学部3年（訪問）<br>
 		<code>jumpei.saito</code>
 	</div>
 
 </div>
 
-## Alumni
+## 卒業生・元メンバー
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;">
 
 	<div>
 		<img src="/assets/images/members/NguyenKhacNam.jpeg" alt="Nguyen Khac Nam" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
 		<strong>Nguyen Khac Nam</strong><br>
-		Intern, UTokyo<br>
+		インターン（東京大学）<br>
 	</div>
 
 </div>

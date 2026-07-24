@@ -1,16 +1,16 @@
 # Main navigation
 main:
-  - title: "ABOUT"
+  - title: "ホーム"
     url: /
-  - title: "MEMBERS"
+  - title: "メンバー"
     url: /members/
-  - title: "RESEARCH"
+  - title: "研究"
     url: /research/
-  - title: "PUBLICATIONS"
+  - title: "出版・論文"
     url: /publication/
-  - title: "AWARDS & MEDIA"
+  - title: "受賞・メディア"
     url: /awards-media/
-  - title: "NEWS"
+  - title: "ニュース"
     url: /news/
-  - title: "ACCESS"
+  - title: "アクセス"
     url: /access/

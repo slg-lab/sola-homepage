@@ -8,8 +8,8 @@ image: "/assets/images/research/IROS2026_mobidock.png"
 external_url: "https://arxiv.org/abs/2510.27178"
 ---
 
-MobiDock presents a modular self-reconfigurable bimanual mobile manipulator built through robotic docking between two independent mobile robots.
+MobiDock は、2台の独立した移動ロボットをロボットドッキングで結合することで構成される、モジュール型の自己再構成双腕移動マニピュレータです。
 
-The system combines autonomous vision-based docking with a screw-lock mechanism so the two robots can form a unified platform with improved stability and task efficiency for coordinated manipulation.
+本システムは、自律視覚ドッキングとスクリューロック機構を組み合わせ、2台のロボットを一体化プラットフォーム化することで、協調マニピュレーション時の安定性と作業効率を向上させます。
 
-Paper: [arXiv](https://arxiv.org/abs/2510.27178)
+論文: [arXiv](https://arxiv.org/abs/2510.27178)

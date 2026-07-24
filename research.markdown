@@ -4,9 +4,9 @@ title: ""
 permalink: /research/
 ---
 
-Our research is at the intersection of **digital fabrication**, **soft robotics**, and **human-computer interaction**.
+私たちの研究は、**デジタルファブリケーション**、**ソフトロボティクス**、**ヒューマンコンピュータインタラクション**の融合領域にあります。
 
-## Latest Works
+## 最新の研究成果
 
 <div class="research-grid">
 {% assign research_items = site.research | sort: "order" %}

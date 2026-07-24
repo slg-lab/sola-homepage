@@ -4,7 +4,7 @@ title: ""
 permalink: /news/
 ---
 
-## Latest News
+## 最新ニュース
 
 {% assign latest_news = site.data.news | sort: "date" | reverse %}
 <div class="thumb-item-list">
