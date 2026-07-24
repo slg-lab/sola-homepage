@@ -1,5 +1,5 @@
 ---
-title: "Gripper-aware Vision Language Action Models"
+title: "G-VLA"
 venue: "ECCV 2026"
 year: 2026
 order: -3
