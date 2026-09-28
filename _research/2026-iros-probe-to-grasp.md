@@ -5,7 +5,7 @@ year: 2026
 order: -5
 featured: true
 image: "/assets/images/research/IROS2026_probe-to-grasp.png"
-external_url: "https://arxiv.org/abs/2603.27808"
+external_url: "https://slg-lab.github.io/Probe-to-Grasp/"
 ---
 
 Grasping deformable objects with varying stiffness remains a significant challenge in robotics. This project presents a probe-to-grasp manipulation framework for estimating relative object stiffness using a passive soft-rigid two-finger hybrid gripper equipped with self-sensing pneumatic variable-stiffness joints.

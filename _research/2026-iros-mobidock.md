@@ -5,7 +5,7 @@ year: 2026
 order: -4
 featured: true
 image: "/assets/images/research/IROS2026_mobidock.png"
-external_url: "https://arxiv.org/abs/2510.27178"
+external_url: "https://slg-lab.github.io/MobiDock/"
 ---
 
 MobiDock presents a modular self-reconfigurable bimanual mobile manipulator built through robotic docking between two independent mobile robots.

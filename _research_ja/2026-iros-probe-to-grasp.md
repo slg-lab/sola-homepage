@@ -5,7 +5,7 @@ year: 2026
 order: -5
 featured: true
 image: "/assets/images/research/IROS2026_probe-to-grasp.png"
-external_url: "https://arxiv.org/abs/2603.27808"
+external_url: "https://slg-lab.github.io/Probe-to-Grasp/"
 ---
 
 剛性が位置によって変化する柔軟物体の把持は、ロボティクスにおける重要課題です。本研究では、自己センシング可能な空気圧可変剛性関節を備えた受動ソフト・リジッド2指ハイブリッドグリッパを用い、物体の相対剛性を推定する probe-to-grasp マニピュレーションフレームワークを提案します。

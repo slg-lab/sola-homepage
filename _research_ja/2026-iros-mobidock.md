@@ -5,7 +5,7 @@ year: 2026
 order: -4
 featured: true
 image: "/assets/images/research/IROS2026_mobidock.png"
-external_url: "https://arxiv.org/abs/2510.27178"
+external_url: "https://slg-lab.github.io/MobiDock/"
 ---
 
 MobiDock は、2台の独立した移動ロボットをロボットドッキングで結合することで構成される、モジュール型の自己再構成双腕移動マニピュレータです。
