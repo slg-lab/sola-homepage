@@ -11,7 +11,16 @@ layout: single
 
   {{ content }}
 
+  {% assign research_key = page.path | split: '/' | last | remove: '.md' %}
+  {% assign publication = site.data.research_publications[research_key] %}
+  {% if publication %}
+  <section class="research-item-publication" aria-labelledby="publication-heading">
+    <h2 id="publication-heading">{% if page.lang == 'ja' %}関連論文{% else %}Publication{% endif %}</h2>
+    {{ publication | markdownify }}
+  </section>
+  {% endif %}
+
   {% if page.external_url %}
-  <p><a href="{{ page.external_url }}" target="_blank" rel="noopener">Project Page &rarr;</a></p>
+  <p><a href="{{ page.external_url }}" target="_blank" rel="noopener">Project Page</a></p>
   {% endif %}
 </div>
