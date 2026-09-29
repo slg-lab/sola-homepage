@@ -36,7 +36,7 @@ masthead_title: |-
 masthead_subtitle: Keio University SFC
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 
 # Navigation
 navigations: _data/navigation.yml
@@ -64,6 +64,7 @@ defaults:
       lang: ja
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-feed
 
