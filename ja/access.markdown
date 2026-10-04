@@ -16,6 +16,7 @@ lang: ja
 
 <!-- - Main profile and updates: [https://tungtd.com](https://tungtd.com/) -->
 - GitHub: [https://github.com/tatung](https://github.com/tatung)
+- 学内向け: [SoLa Wiki](https://sites.google.com/view/solawiki)（許可されたユーザーのみアクセスできます）
 
 ## 連絡先
 

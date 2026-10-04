@@ -15,6 +15,7 @@ permalink: /access/
 
 <!-- - Main profile and updates: [https://tungtd.com](https://tungtd.com/) -->
 - GitHub: [https://github.com/slg-lab](https://github.com/slg-lab)
+- Internal: [Sola Wiki](https://sites.google.com/view/solawiki) (authorized users only)
 
 ## Contact Information
 
