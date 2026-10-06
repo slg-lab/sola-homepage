@@ -41,7 +41,7 @@ a{color:var(--acc)}footer{color:var(--mut);text-align:center;padding:30px}
 <select id="wk"><option value="">All weeks</option></select>
 <select id="df"><option value="">All difficulty</option><option>Accessible</option><option>Moderate</option><option>Advanced</option></select>
 <select id="ty"><option value="">Original + Review</option><option>Original</option><option>Review</option></select>
-<select id="av"><option value="">All papers</option><option value="open">Available only</option></select></div>
+<select id="av"><option value="">All papers</option><option value="open">Available only</option><option value="taken">Taken only</option></select></div>
 <p class="stats" id="stats"></p><div id="list"></div></div>
 <footer>Status updates automatically every few seconds.</footer>
 <script>
@@ -61,17 +61,19 @@ const weeks=[...new Map(P.map(p=>[p.Week,p.Topic]))];
 weeks.forEach(([w,t])=>$("wk").insertAdjacentHTML("beforeend",`<option value="${w}">Week ${w} · ${esc(t)}</option>`));
 function render(){const q=$("q").value.toLowerCase(),wk=$("wk").value,df=$("df").value,ty=$("ty").value,av=$("av").value;
 const wc={};P.forEach(p=>{if(taken[p.id])wc[p.Week]=(wc[p.Week]||0)+1});const full=w=>(wc[w]||0)>=MAX_PER_WEEK;
-let n=0,free=0,h="",cur=null;
-P.forEach(p=>{const t=taken[p.id],f=!t&&full(p.Week);if(!t&&!f)free++;
- if(wk&&p.Week!=wk||df&&p.Difficulty!=df||ty&&p.Type!=ty||av&&(t||f))return;
- if(q&&!(p["Paper title"]+p.Authors+p.Venue+p.Topic+p.id).toLowerCase().includes(q))return;
- if(cur!==p.Week){if(cur!==null)h+="</div>";cur=p.Week;h+=`<h2 class="wk">Week ${p.Week} · ${esc(p.Topic)} ${full(p.Week)?'<span class="tag gone">Not available · week full ('+MAX_PER_WEEK+'/'+MAX_PER_WEEK+')</span>':'<span class="tag">'+(wc[p.Week]||0)+'/'+MAX_PER_WEEK+' taken</span>'}</h2><div class="grid">`}
- n++;h+=`<div class="card ${t||f?"taken":""}"><div class="top"><span class="id">${p.id}</span><span><span class="tag">${p.Type}</span> <span class="tag ${p.Difficulty}">${p.Difficulty}</span></span></div>
+let n=0,free=0,h="";
+weeks.forEach(([w,topic])=>{if(wk&&w!=wk)return;
+ let cards="";
+ P.filter(p=>p.Week==w).forEach(p=>{const t=taken[p.id],f=!t&&full(p.Week);if(!t&&!f)free++;
+  if(df&&p.Difficulty!=df||ty&&p.Type!=ty||av=="open"&&(t||f)||av=="taken"&&!t)return;
+  if(q&&!(p["Paper title"]+p.Authors+p.Venue+p.Topic+p.id).toLowerCase().includes(q))return;
+  n++;cards+=`<div class="card ${t||f?"taken":""}"><div class="top"><span class="id">${p.id}</span><span><span class="tag">${p.Type}</span> <span class="tag ${p.Difficulty}">${p.Difficulty}</span></span></div>
  <h3>${esc(p["Paper title"])}</h3><div class="meta">${esc(p.Authors)} · ${p.Year} · ${esc(p.Venue)}</div>
  <div>${esc(p["Main contribution"])}</div><div class="q">💬 ${esc(p["Suggested presentation question"])}</div>
  <div class="meta">Slot ${p.Slot} · <a href="${esc(p["Primary link"])}" target="_blank" rel="noopener">Paper link ↗</a></div>
  <div class="st ${t||f?"gone":"open"}">${t?"Taken — "+esc(t):f?"Not available — week full":"● Available"}</div></div>`});
-if(cur!==null)h+="</div>";$("list").innerHTML=h||"<p>No matches.</p>";$("stats").textContent=`Showing ${n} of ${P.length} · ${free} still available`}
+ h+=`<h2 class="wk">Week ${w} · ${esc(topic)} ${full(w)?'<span class="tag gone">Not available · week full ('+MAX_PER_WEEK+'/'+MAX_PER_WEEK+')</span>':'<span class="tag">'+(wc[w]||0)+'/'+MAX_PER_WEEK+' taken</span>'}</h2><div class="grid">${cards||'<p class="meta">No papers to show in this week.</p>'}</div>`});
+$("list").innerHTML=h;$("stats").textContent=`Showing ${n} of ${P.length} · ${free} still available`}
 ["q","wk","df","ty","av"].forEach(i=>$(i).addEventListener("input",render));
 async function load(){
  try{
@@ -79,5 +81,5 @@ async function load(){
   else if(ASSIGNMENTS_CSV){const t=await (await fetch(ASSIGNMENTS_CSV+"&_="+Date.now(),{cache:"no-store"})).text();taken={};
    t.trim().split(/\r?\n/).slice(1).forEach(l=>{const m=l.match(/^"?(P\d+)"?,"?([^",]*)/);if(m&&m[2])taken[m[1]]=m[2]})}
  }catch(e){console.warn(e)}render()}
-load();setInterval(()=>{if(!document.hidden)load()},(STATUS_URL?POLL_SECONDS:60)*1000);
+render();load();setInterval(()=>{if(!document.hidden)load()},(STATUS_URL?POLL_SECONDS:60)*1000);
 </script></body></html>
