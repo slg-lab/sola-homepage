@@ -12,5 +12,7 @@ main:
     url: /ja/awards-media/
   - title: "ニュース"
     url: /ja/news/
+  - title: "授業"
+    url: /ja/courses/
   - title: "アクセス"
     url: /ja/access/

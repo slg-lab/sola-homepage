@@ -41,12 +41,43 @@ classes: members-page
 ## Undergraduate
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;">
+	<div>
+		<img src="/assets/images/members/placeholder.svg" alt="Bancaya Roger Troy K" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
+		<strong>Bancaya Roger Troy K</strong><br>
+		B4<br>
+		<code>bancayarogertroy</code>
+	</div>
 
 	<div>
-		<img src="/assets/images/members/placeholder.svg" alt="Duong Minh Ngoc" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
-		<strong>Duong Minh Ngoc</strong><br>
-		B3<br>
+		<img src="/assets/images/members/placeholder.svg" alt="Duong Ngoc" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
+		<strong>Duong Ngoc</strong><br>
+		B4<br>
 		<code>duongminhngoc2512</code>
+	</div>
+
+	<div>
+		<img src="/assets/images/members/placeholder.svg" alt="Jumpei Saito" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
+		<strong>Jumpei Saito</strong><br>
+		B3<br>
+		<code>jumpei.saito</code>
+	</div>
+
+	<div>
+		<img src="/assets/images/members/placeholder.svg" alt="Nguyen Duy Hien" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
+		<strong>Nguyen Duy Hien</strong><br>
+		B3
+	</div>
+
+	<div>
+		<img src="/assets/images/members/placeholder.svg" alt="Aki Nakamoto" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
+		<strong>Aki Nakamoto</strong><br>
+		B3
+	</div>
+
+	<div>
+		<img src="/assets/images/members/placeholder.svg" alt="Haruki Katori" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
+		<strong>Haruki Katori</strong><br>
+		B2
 	</div>
 
 	<div>
@@ -54,20 +85,6 @@ classes: members-page
 		<strong>Limpasuthum Pawit</strong><br>
 		B2 (visiting)<br>
 		<code>pawitlim</code>
-	</div>
-
-	<div>
-		<img src="/assets/images/members/placeholder.svg" alt="Bancaya Roger Troy" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
-		<strong>Bancaya Roger Troy</strong><br>
-		B3 (visiting)<br>
-		<code>bancayarogertroy</code>
-	</div>
-
-	<div>
-		<img src="/assets/images/members/placeholder.svg" alt="Jumpei Saito" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
-		<strong>Jumpei Saito</strong><br>
-		B3 (visiting)<br>
-		<code>jumpei.saito</code>
 	</div>
 
 </div>

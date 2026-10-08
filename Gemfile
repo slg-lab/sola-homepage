@@ -29,6 +29,7 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "minimal-mistakes-jekyll"
+gem "jekyll-remote-theme"
 
 # Ruby 3.4+ no longer ships some stdlib gems by default.
 gem "csv"

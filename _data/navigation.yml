@@ -12,5 +12,7 @@ main:
     url: /awards-media/
   - title: "NEWS"
     url: /news/
+  - title: "COURSES"
+    url: /courses/
   - title: "ACCESS"
     url: /access/

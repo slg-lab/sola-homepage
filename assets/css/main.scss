@@ -93,6 +93,34 @@ body {
   color: #ffffff;
 }
 
+/* Keep all menu items visible on laptop-width screens */
+@media (min-width: 768px) {
+  .greedy-nav .site-title {
+    margin-right: 1rem;
+  }
+
+  .greedy-nav .visible-links a {
+    margin: 0 0.75rem;
+    white-space: nowrap;
+  }
+
+  .language-switcher {
+    margin-left: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .greedy-nav .visible-links a {
+    margin: 0 0.4rem;
+    font-size: 0.68rem;
+  }
+
+  .greedy-nav .site-title {
+    font-size: 0.72rem;
+    margin-right: 0.5rem;
+  }
+}
+
 .greedy-nav .visible-links a:before {
   background: #ffffff;
   bottom: 0;
@@ -112,6 +140,10 @@ body {
 .language-switcher__link:visited {
   color: #ffffff;
   text-decoration: none;
+}
+
+.greedy-nav .language-switcher a {
+  margin: 0;
 }
 
 .language-switcher__link:hover,
