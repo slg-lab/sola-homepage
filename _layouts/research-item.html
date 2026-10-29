@@ -12,6 +12,21 @@ layout: single
   {{ content }}
 
   {% assign research_key = page.path | split: '/' | last | remove: '.md' %}
+  {% assign video = site.data.research_videos[research_key] %}
+  {% if video %}
+  <section class="research-item-video" aria-labelledby="video-heading">
+    <h2 id="video-heading">{% if page.lang == 'ja' %}動画{% else %}Video{% endif %}</h2>
+    {% if video.file %}
+    <video controls playsinline preload="metadata"{% if page.image %} poster="{{ page.image | escape }}"{% endif %} style="display:block;width:100%;max-width:720px;height:auto;border-radius:8px;">
+      <source src="{{ video.file | relative_url }}" type="video/mp4">
+      <a href="{{ video.file | relative_url }}">{% if page.lang == 'ja' %}動画をダウンロード{% else %}Download video{% endif %}</a>
+    </video>
+    {% else %}
+    <iframe src="{{ video.embed_url | escape }}" title="{{ page.title | escape }} — {% if page.lang == 'ja' %}動画{% else %}video{% endif %}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; fullscreen; picture-in-picture" allowfullscreen style="display:block;width:100%;max-width:720px;aspect-ratio:16/9;border:0;border-radius:8px;"></iframe>
+    {% endif %}
+    <p><a href="{{ video.source_url | escape }}" target="_blank" rel="noopener">{% if page.lang == 'ja' %}動画の出典{% else %}Video source{% endif %}</a></p>
+  </section>
+  {% endif %}
   {% assign publication = site.data.research_publications[research_key] %}
   {% if publication %}
   <section class="research-item-publication" aria-labelledby="publication-heading">

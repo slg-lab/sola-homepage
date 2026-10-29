@@ -1,0 +1,36 @@
+# Verified project/author videos, shared by English and Japanese research pages.
+# Prefer local MP4 files; use the provider's player when downloading fails.
+# Checked 2026-10-29. The existing G-VLA video remains in its page content.
+2026-iros-probe-to-grasp:
+  embed_url: https://www.youtube-nocookie.com/embed/C0pmyTQ5G2k
+  source_url: https://slg-lab.github.io/Probe-to-Grasp/
+2026-iros-mobidock:
+  embed_url: https://www.youtube-nocookie.com/embed/m49ewqlb2ho
+  source_url: https://slg-lab.github.io/MobiDock/
+2026-iros-robodesign1m:
+  file: /assets/videos/research/robodesign1m.mp4
+  source_url: https://airvlab.github.io/robotdesign1m/
+2025-iros-graspmas:
+  file: /assets/videos/research/graspmas.mp4
+  source_url: https://zquang2202.github.io/GraspMAS/
+2025-icra-hybrid-gripper:
+  embed_url: https://www.youtube-nocookie.com/embed/Mo-Tq39jVWQ
+  source_url: https://yudy1412.github.io/
+2023-iros-programmable-robotic-skin:
+  file: /assets/videos/research/programmable-robotic-skin.mp4
+  source_url: https://6fingers.me/bistable-robotic-skin/
+2022-icra-origami-jumpers:
+  embed_url: https://www.youtube-nocookie.com/embed/15y4ZFg5i5Y
+  source_url: https://kawaharalab.github.io/OrigamiJumper/
+2020-chi-kirigami-haptic-swatches:
+  embed_url: https://www.youtube-nocookie.com/embed/HfBmSKObzLs
+  source_url: https://www.youtube.com/watch?v=HfBmSKObzLs
+2020-ubicomp-silvertape-imwut:
+  embed_url: https://www.youtube-nocookie.com/embed/S5lZ22QIPuY
+  source_url: https://www.youtube.com/watch?v=S5lZ22QIPuY
+2018-ubicomp-origami-caterpillar-robot:
+  embed_url: https://www.youtube-nocookie.com/embed/x2aOZYxA6pY
+  source_url: https://www.youtube.com/watch?v=x2aOZYxA6pY
+2018-chi-pep:
+  embed_url: https://player.vimeo.com/video/251766928
+  source_url: https://vimeo.com/251766928
